@@ -2,7 +2,7 @@ cd to the root directory demo
 
 run the following commands:
 
-docker build -t weather-uen-app .
+docker build --no-cache -t weather-uen-app .
 
 docker run -d --name weather-uen-container -p 8080:8080 weather-uen-app
 
